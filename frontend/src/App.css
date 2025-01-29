@@ -1,0 +1,134 @@
+* {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3%;
+  width: 80%;
+  position: relative;
+}
+.container1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+h1 {
+  font-size: 32px;
+}
+.buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 40px;
+  width: 80%;
+  position: relative;
+}
+.addexpensebtn,
+.addexpensebtn-2 {
+  height: 40px;
+  background-color: #af8978;
+  font-size: 18px;
+  margin-right: 20px;
+  cursor: pointer;
+}
+.addexpensebtn-2 {
+  background-color: rgb(153, 153, 231);
+}
+.search {
+  height: 35px;
+  padding-left: 10px;
+}
+.expenses {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+}
+.card {
+  background-color: #f3edeb;
+  display: flex;
+  height: 100px;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  margin: 20px 0px 20px 0px;
+}
+.title {
+  color: #555;
+  font-size: 18px;
+}
+.amount {
+  font-weight: 600;
+}
+.options {
+  display: flex;
+  width: 100px;
+  justify-content: space-around;
+  cursor: pointer;
+}
+.expenseAdd {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  top: 20px;
+  left: 0px;
+  height: 350px;
+  border: 0.5px solid black;
+  width: 500px;
+  background-color: #fff;
+  padding: 20px;
+}
+.expenseEdit {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  top: 20px;
+  right: 20px;
+  height: 350px;
+  border: 0.5px solid black;
+  width: 500px;
+  background-color: #fff;
+  padding: 20px;
+}
+.showChart {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  top: 20px;
+  left: 135px;
+  height: 350px;
+  border: 0.5px solid black;
+  width: 500px;
+  background-color: #fff;
+  padding: 20px;
+}
+.into {
+  display: flex;
+  justify-content: end;
+  align-items: end;
+  font-size: x-large;
+  color: red;
+  cursor: pointer;
+}
+.addinput {
+  margin-top: 10px;
+  font-weight: 500;
+  font-size: 18px;
+}
+.input {
+  border: 2px solid #555;
+  padding: 10px;
+}
+.add {
+  background-color: #af8978;
+  color: white;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  margin-top: 20px;
+}
